@@ -1,0 +1,66 @@
+html,body {
+  height: 100%;
+  font-size: 14px;
+}
+body {
+  background: #fafafa url('../images/bg-main.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  font: 200 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+.wrap {
+  height: 100%;
+  text-align: center;
+}
+.wrap:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 0;
+}
+.intro {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.intro__head, .intro__lead {
+  font-weight: 200;
+  line-height: 1;
+}
+.intro__head {
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.intro__lead {
+  font-size: 20px;
+  margin-bottom: 4em;
+}
+.packages{
+  list-style: none;
+  padding-left: 0;
+}
+.packages li {
+  display: inline-block;
+}
+.packages li:after {
+  content: '•';
+  margin-left: 0.3em;
+}
+.packages li:first-child:before {
+  content: '•';
+  margin-right: 0.3em;
+}
+.package {
+  color: white;
+}
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
